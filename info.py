@@ -1,6 +1,10 @@
 import re
 from os import environ
 
+<a href="https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FMoksh-Bhardwaj%2Furl-auto-delete-shortener-bot%2Fcommit%2Ff35c2ff114f138a210e6408f958ee3f0ae887fd8">
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
+
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
